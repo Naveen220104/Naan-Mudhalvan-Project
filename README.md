@@ -54,13 +54,13 @@ git clone https://github.com/your-username/freelancing-website.git
 cd freelancing-website
 
 
-Install Frontend:
+# Install Frontend:
 
 cd client
 npm install
 npm start
 
-Install Backend:
+# Install Backend:
 
 cd server
 npm install
@@ -68,7 +68,7 @@ node index.js
 
 ⚠️ Make sure MongoDB is running locally or use MongoDB Atlas.
 
-🌐 Project Structure
+# 🌐 Project Structure
 
 freelancing-website/
 ├── client/        # React frontend
@@ -77,7 +77,7 @@ freelancing-website/
 ├── README.md      # Project documentation
 
 
-🧠 Learning Outcomes
+# 🧠 Learning Outcomes
 Full-stack web development using MERN
 
 RESTful API design
@@ -88,7 +88,7 @@ Role-based access control
 
 Real-world project structure and deployment practices
 
-👨‍💻 Author
+# 👨‍💻 Author
 Naveenkumar
 Final Year Student – B.Tech
 Project under Naan Mudhalvan Scheme
