@@ -1,70 +1,95 @@
-# ✈️ Big Data Analysis: Airline Delays & Cancellations (2009–2018)
+# 💼 Freelancing Platform – Naan Mudhalvan Project
 
-This is a final year data science project focused on large-scale analysis of airline delays and cancellations across the United States between 2009 and 2018. It demonstrates the ability to work with multi-gigabyte datasets in a high-performance notebook environment such as Kaggle or Google Colab.
+This is a full-stack **freelancing website** developed as part of the **Naan Mudhalvan skill development initiative**. The platform allows clients to post projects and freelancers to bid, work, and get paid — all in one place.
 
 ---
 
 ## 🎯 Objective
 
-To identify patterns, trends, and insights in airline delay and cancellation data, and to explore how various factors such as time of year, airports, and carriers contribute to these disruptions.
+To build a fully functional freelancing platform where:
+- 👨‍💼 Clients can post jobs
+- 👨‍💻 Freelancers can apply & get hired
+- 💬 Both parties can interact and manage tasks
+- ✅ Secure login/registration and role-based access is maintained
 
 ---
 
-## 📁 Dataset Details
+## 🛠️ Tech Stack
 
-- **Name**: Airline Delay and Cancellation Dataset (2009–2018)
-- **Format**: CSV files (1 file per year)
-- **Size**: Multi-gigabyte (ideal for big data environments)
-- **Key Features**:
-  - `FlightDate`, `Carrier`, `Origin`, `Dest`
-  - `ArrDelay`, `DepDelay`, `Cancelled`, `Diverted`
-
-> Dataset accessed via `!ls /kaggle/input/airline-delay-and-cancellation-data-2009-2018`
-
----
-
-## 📌 Workflow Overview
-
-1. **Imports and Initialization**
-2. **Loading Data for Multiple Years**
-3. **Cleaning & Combining Yearly Data**
-4. **Exploratory Data Analysis (EDA)**:
-   - Monthly delays
-   - Most cancelled flights
-   - Trends in delay causes
-5. **Visualizations** using Matplotlib & Seaborn
+| Technology   | Usage                       |
+|--------------|-----------------------------|
+| **React.js** | Frontend user interface     |
+| **Node.js**  | Backend server logic        |
+| **Express.js** | REST API and routing     |
+| **MongoDB**  | NoSQL database for users & jobs |
+| **JWT**      | Authentication & Security   |
+| **CSS / Tailwind** | UI Styling            |
+| **Git + GitHub** | Version control & deployment |
 
 ---
 
-## 🧰 Tools & Technologies
+## 📁 Features
 
-| Tool/Library         | Purpose                     |
-|----------------------|-----------------------------|
-| Python               | Programming Language        |
-| Pandas, NumPy        | Data processing             |
-| Matplotlib, Seaborn  | Data visualization          |
-| Kaggle / Google Colab| Notebook execution          |
-| Git + GitHub         | Version control & sharing   |
+- 🔐 **Authentication**: Signup/Login with role (Client or Freelancer)
+- 📄 **Post a Project**: Clients can create and publish job listings
+- 🔍 **Browse Jobs**: Freelancers can browse all available jobs
+- ✉️ **Apply for Jobs**: Freelancers can submit bids or proposals
+- 💬 **Dashboard**: Personalized dashboards for Clients and Freelancers
+- ⌛ **Track Progress**: Project status updates and delivery tracking
+- 📨 **Message System** *(Optional)*: Real-time or static communication
 
 ---
 
-# View the dataset files inside a Kaggle notebook
-!ls /kaggle/input/airline-delay-and-cancellation-data-2009-2018
-📊 Key Insights (Examples)
-✈️ January and July are peak months for delays.
+## 📸 Screenshots
 
-🛫 ATL, ORD, and LAX had the highest delay counts.
+> Add UI screenshots here (homepage, login, job post, dashboard, etc.)
 
-🌦️ Weather and carrier-related delays were the most common causes.
+---
 
-📉 A steady improvement in on-time performance after 2015.
+## 🚀 Getting Started
+
+### 1. Clone the Repo
+
+git clone https://github.com/your-username/freelancing-website.git
+cd freelancing-website
+
+
+Install Frontend:
+
+cd client
+npm install
+npm start
+
+Install Backend:
+
+cd server
+npm install
+node index.js
+
+⚠️ Make sure MongoDB is running locally or use MongoDB Atlas.
+
+🌐 Project Structure
+
+freelancing-website/
+├── client/        # React frontend
+├── server/        # Node + Express backend
+├── .env           # Environment variables
+├── README.md      # Project documentation
+
+
+🧠 Learning Outcomes
+Full-stack web development using MERN
+
+RESTful API design
+
+MongoDB schema design
+
+Role-based access control
+
+Real-world project structure and deployment practices
 
 👨‍💻 Author
 Naveenkumar
-Final Year B.Tech Student
-Specialization: Data Science & Cybersecurity
+Final Year Student – B.Tech
+Project under Naan Mudhalvan Scheme
 GitHub: @Naveen220104
-
-📎 License
-This project is for educational and academic use only. Dataset belongs to respective providers (Kaggle, FAA, etc.).
-
